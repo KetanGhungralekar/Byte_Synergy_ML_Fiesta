@@ -1,0 +1,26 @@
+# Audio processing
+torchaudio
+ffmpeg-python
+
+# Speech recognition
+whisper
+openai-whisper
+
+# NLP and text refinement
+transformers
+sentencepiece
+nltk
+spacy
+sentence-transformers
+
+# QA system
+openai
+langchain
+
+# Web-based UI
+gradio
+
+# Utility libraries
+numpy
+pandas
+tqdm
