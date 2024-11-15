@@ -41,12 +41,13 @@ The following libraries are required to run the notebooks. Install them using th
   - `nltk` (text preprocessing and refinement)
   - `sentencepiece` (tokenization)
 - **QA System**:
-  - `openai` (for GPT-based QA)
-  - `langchain` (optional, for advanced QA workflows)
+  - `openai` (for GPT-based work)
+  - `Gemini API and Hugging Face models_` (optional, for advanced QA workflows)
 - **Others**:
   - `numpy`
   - `pandas`
-  - `tqdm`
+  - `torch`
+  - `gradio` (for frontend for QA system)
 
 ### Install Dependencies
 To install all required libraries, run:
