@@ -64,10 +64,10 @@ pip install -r requirements.txt
 ### Step 2: Refinement
 1. Open and run the `Refinement.ipynb` notebook.
 2. The notebook will read the raw transcriptions from `all_transcription.txt`.
-3. Refined transcriptions will be saved to the `final_combined_output.txt` folder.
+3. Refined transcriptions will be saved to the `final_combined_output.txt` file.
 
 ### Step 3: Question Answering
-1. Place question audio files in the `questions_input/` directory.
-2. Open and run the `Final_QA.ipynb` notebook.
+1. Open and run the `Final_QA.ipynb` notebook.
+2. You will get gradio user interface, you can upload audio question or use microphone option to record question and submit
 3. The notebook will transcribe the questions and answer them using the refined text.
 4. Answers will be saved to the `answers_output/` folder.
