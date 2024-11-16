@@ -42,7 +42,7 @@ The following libraries are required to run the notebooks. Install them using th
   - `sentencepiece` (tokenization)
 - **QA System**:
   - `openai` (for GPT-based work)
-  - `Gemini API and Hugging Face models_` (optional, for advanced QA workflows)
+  - `Gemini API and Hugging Face models` (optional, for advanced QA workflows)
 - **Others**:
   - `numpy`
   - `pandas`
@@ -63,7 +63,7 @@ pip install -r requirements.txt
 
 ### Step 2: Refinement
 1. Open and run the `Refinement.ipynb` notebook.
-2. The notebook will read the raw transcriptions from `transcriptions_raw/`.
+2. The notebook will read the raw transcriptions from `all_transcription.txt`.
 3. Refined transcriptions will be saved to the `transcriptions_refined/` folder.
 
 ### Step 3: Question Answering
