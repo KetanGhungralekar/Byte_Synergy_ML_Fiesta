@@ -70,4 +70,4 @@ pip install -r requirements.txt
 1. Open and run the `Final_QA.ipynb` notebook.
 2. You will get gradio user interface, you can upload audio question or use microphone option to record question and submit
 3. The notebook will transcribe the questions and answer them using the refined text.
-4. Answers will be saved to the `answers_output/` folder.
+4. Answers will be shown after processing the input question via QA system and it will appear on userinterface.
