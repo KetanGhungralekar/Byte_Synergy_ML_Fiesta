@@ -50,10 +50,7 @@ The following libraries are required to run the notebooks. Install them using th
   - `gradio` (for frontend for QA system)
 
 ### Install Dependencies
-To install all required libraries, run:
-```bash
-pip install -r requirements.txt
-```
+No need every notebook first installs required liberaries
 ## Usage
 
 ### Step 1: Transcription
