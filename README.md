@@ -59,12 +59,12 @@ pip install -r requirements.txt
 ### Step 1: Transcription
 1. Place your audio files in the `audio_input/` directory.
 2. Open and run the `ASR_Model.ipynb` notebook.
-3. Raw transcriptions will be saved to the `transcriptions_raw/` folder.
+3. Raw transcriptions will be saved to the `all_transcription.txt` folder.
 
 ### Step 2: Refinement
 1. Open and run the `Refinement.ipynb` notebook.
 2. The notebook will read the raw transcriptions from `all_transcription.txt`.
-3. Refined transcriptions will be saved to the `transcriptions_refined/` folder.
+3. Refined transcriptions will be saved to the `final_combined_output.txt` folder.
 
 ### Step 3: Question Answering
 1. Place question audio files in the `questions_input/` directory.
