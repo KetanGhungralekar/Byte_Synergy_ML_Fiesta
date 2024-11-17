@@ -2,6 +2,7 @@
 
 This repository contains an end-to-end pipeline for processing audio data, transcribing it, refining the transcriptions, and answering questions based on the refined text. The pipeline uses state-of-the-art models for automatic speech recognition (ASR), transcription refinement, and question-answering (QA).
 
+**Live Demo**: [Sandalwood QA System](https://huggingface.co/spaces/kgmumbai/Sandalwood-QA-Systemqw)
 ---
 
 ## Overview
@@ -57,7 +58,6 @@ No need every notebook first installs required liberaries
 1. Place your audio files in the `audio_input/` directory.
 2. Open and run the `ASR_Model.ipynb` notebook.
 3. Raw transcriptions will be saved to the `all_transcription.txt` folder.
-
 ### Step 2: Refinement
 1. Open and run the `Refinement.ipynb` notebook.
 2. The notebook will read the raw transcriptions from `all_transcription.txt`.
