@@ -91,7 +91,6 @@ Experience the system directly without needing to set up the code locally!
 
 ```plaintext
 .
-├── audio_input/                 # Directory for input audio files
 ├── ASR_Model.ipynb              # Notebook for audio transcription
 ├── Refinement.ipynb             # Notebook for refining transcriptions
 ├── Final_QA.ipynb               # Notebook for question answering
