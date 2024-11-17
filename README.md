@@ -4,7 +4,7 @@ This repository contains an end-to-end pipeline for processing audio data, trans
 
 ---
 
-## **Live Demo**: [Sandalwood QA System](https://huggingface.co/spaces/kgmumbai/Sandalwood-QA-Systemqw)
+**Live Demo (Hugging Face)**: [Sandalwood QA System](https://huggingface.co/spaces/kgmumbai/Sandalwood-QA-Systemqw)
 
 ---
 
@@ -80,8 +80,8 @@ Each notebook automatically installs its required libraries when run.
 
 ## Hugging Face Deployment
 
-This pipeline is also deployed on Hugging Face Spaces for easy access and testing:  
-**Live Demo**: [Sandalwood QA System](https://huggingface.co/spaces/kgmumbai/Sandalwood-QA-Systemqw)
+This pipeline is deployed on Hugging Face Spaces for easy access and testing: 
+Above Live demo link is of that deployed pipeline
 
 Experience the system directly without needing to set up the code locally!
 
