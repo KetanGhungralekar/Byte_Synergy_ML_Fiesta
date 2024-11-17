@@ -1,6 +1,10 @@
-# Audio QA Pipeline
+# 🎙️ Audio QA Pipeline
 
 This repository contains an end-to-end pipeline for processing audio data, transcribing it, refining the transcriptions, and answering questions based on the refined text. The pipeline uses state-of-the-art models for automatic speech recognition (ASR), transcription refinement, and question-answering (QA).
+
+---
+
+## **Live Demo (Hugging Face)**: [Sandalwood QA System](https://huggingface.co/spaces/kgmumbai/Sandalwood-QA-Systemqw)
 
 ---
 
@@ -42,21 +46,24 @@ The following libraries are required to run the notebooks. Install them using th
   - `sentencepiece` (tokenization)
 - **QA System**:
   - `openai` (for GPT-based work)
-  - `Gemini API and Hugging Face models` (optional, for advanced QA workflows)
+  - Hugging Face models (for QA workflows)
 - **Others**:
   - `numpy`
   - `pandas`
   - `torch`
-  - `gradio` (for frontend for QA system)
+  - `gradio` (for the frontend QA system)
 
 ### Install Dependencies
-No need every notebook first installs required liberaries
+Each notebook automatically installs its required libraries when run.
+
+---
+
 ## Usage
 
 ### Step 1: Transcription
 1. Place your audio files in the `audio_input/` directory.
 2. Open and run the `ASR_Model.ipynb` notebook.
-3. Raw transcriptions will be saved to the `all_transcription.txt` folder.
+3. Raw transcriptions will be saved to the `all_transcription.txt` file.
 
 ### Step 2: Refinement
 1. Open and run the `Refinement.ipynb` notebook.
@@ -65,6 +72,29 @@ No need every notebook first installs required liberaries
 
 ### Step 3: Question Answering
 1. Open and run the `Final_QA.ipynb` notebook.
-2. You will get gradio user interface, you can upload audio question or use microphone option to record question and submit
+2. You will get a Gradio user interface where you can upload an audio question or use the microphone option to record a question and submit it.
 3. The notebook will transcribe the questions and answer them using the refined text.
-4. Answers will be shown after processing the input question via QA system and it will appear on userinterface.
+4. Answers will appear on the user interface after processing.
+
+---
+
+## Hugging Face Deployment
+
+This pipeline is deployed on Hugging Face Spaces for easy access and testing: 
+Above Live demo link is of that deployed pipeline
+
+Experience the system directly without needing to set up the code locally!
+
+---
+
+## Repository Structure
+
+```plaintext
+.
+├── ASR_Model.ipynb              # Notebook for audio transcription
+├── Refinement.ipynb             # Notebook for refining transcriptions
+├── Final_QA.ipynb               # Notebook for question answering
+├── requirements.txt             # List of required libraries
+├── all_transcription.txt        # File for raw transcriptions
+├── final_combined_output.txt    # File for refined transcriptions
+└── README.md                    # Project documentation
